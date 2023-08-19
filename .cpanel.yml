@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home1/umeshtan/repositories/practice-git 
+    - /bin/cp * $DEPLOYPATH
+    
